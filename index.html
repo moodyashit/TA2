@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    /* Add fade-in animation to elements with the 'fadeIn' class */
+    .fadeIn {
+      animation: fadeInAnimation ease 2s;
+      animation-iteration-count: 1;
+      animation-fill-mode: forwards;
+    }
+    
+    @keyframes fadeInAnimation {
+      0% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
+  </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">My Portfolio</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#section1">About</a>
+            </li>
+            <li class="nav-item">        
+              <a class="nav-link" href="#section2">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#section3">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="image-container fadeIn">
+        <img src="The fall of Babylon by John Martin.jpg" alt="Background Image">
+      </div>
+      
+  <section id="Portfolio_about" class="container-fluid">
+      <div class="col-lg-6 mx-auto text-center fadeIn"> 
+        <h1>Welcome to My Portfolio</h1>
+        <p>Hi, I'm Aclaro, Coleen N. I'm a Student of FEU - Alabang, I have 0 of experience in this kind of field.</p>
+        <h2 id="section1"> About </h2>
+        <p>I'm 18 years old, about to turn 19 on June 17. I love to read books, novels, mangas, manhwas, webtoons, etc. Currently, I haven't really delved into the comic side. I also like to play games and watch gameplays of games I'm interested in before playing them myself. Another thing about my interest in gaming is that I love to watch 100% gameplays where they get every achievement and item. And, I just love watching artistic people do something remarkably artistic. That's me.</p>
+        <h2>Skills</h2>
+        <p>My skills... are quite literally nothing. Unless you count not caring for other people's opinions and ideas of me as a skill. I guess writing would be one? And if insulting can be called a skill, then maybe that too. I don't mind learning new things as long as they interest me.</p>
+        <h2>Interests</h2>
+        <p>My interests are the same as my about me section. I have an interest in reading, writing, and living.</p>
+      </div>
+      <div class="col-lg-6 mx-auto text-center fadeIn"> 
+      </div>
+    </div>
+  </section>
+
+  <div class="text-center"> </div>
+  <h1 id="section2" class="fadeIn"> Projects </h1>
+  <div class="card mb-3 fadeIn">
+    <img src="TA1.jpg">
+    <div class="card-body">
+      <h5 class="card-title"> Technical Assesment 1 </h5>
+      <p class="card-text"> This is our first Technical Assessment, and this is what I made for that Assessment. </p>
+    </div>
+  </div>
+
+  <div class="card mb-3 fadeIn">
+    <img src="What is FEU-Alabang.jpg">
+    <div class="card-body">
+      <h5 class="card-title"> 2nd HTML code </h5>
+      <p class="card-text"> This was my 2nd or 3rd html code that I made, well, not really made by myself. Our professor also
+        made a template for us. So maybe made by me, was a bad take. But anyways, almost majority of the html codes I do is all
+        beige themed. Or, minimalistic in a way. </p>
+    </div>
+  </div>
+
+  <div class="card mb-3 fadeIn">
+    <img src="so3 mini-activity.jpg">
+    <div class="card-body">
+      <h5 class="card-title"> 1st or, is it 2nd? HTML code </h5>
+      <p class="card-text"> To be honest, not sure if this is my first or second html code. Since, when we first started
+        our professor already taught us how to do html but, it's with her guidance. This one, was actually made
+        by me entirely. I actually meant that for once.
+    </div>
+  </div>
+
+  
+
+  <section id="contact" class="fadeIn">
+    <h2 id="section3">Contact</h2>
+    <ul class="contact-list">
+      <li><a href="mailto:coleenaclaclaro@gmail.com">coleenaclaclaro@gmail.com</a></li>
+      <li><a href="tel:09171640475">0917-164-0475</a></li>
+      <li><a href="mailto:20231000075@feualabang.edu.ph">20231000075@feualabang.edu.ph</a></li>
+    </ul>
+  </section>
+  
+  <footer>
+    <div class="footer-content">
+      <a href="https://www.facebook.com/coleen.aclaro.1?mibextid=LQQJ4d" target="_blank"><i class="fab fa-facebook"></i></a>
+      <p>&copy; 2024 Aclaro, Coleen N . All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
